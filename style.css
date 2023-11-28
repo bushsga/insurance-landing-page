@@ -160,8 +160,15 @@ footer {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
   }
+  .logo-image {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 2.5rem;
+    width: 50%;
+  }
 
   a[href] {
+    margin-right: 2.5rem;
     text-decoration: none;
     color: var(--clr-neutral-400);
   }
